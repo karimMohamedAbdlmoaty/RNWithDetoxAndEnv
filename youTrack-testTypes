@@ -1,0 +1,29 @@
+login.test             => 
+log-in.test            =>  sinon  -  {shallow} from 'enzyme'
+
+auth.test              =>  sinon
+auth__permissions.test =>
+
+feature.test           =>
+
+api.test               =>  sinon  -  fetchMock
+api__helper.test       =>
+
+issue.test             =>
+issue-formatter.test   =>  sinon
+issue-visibility.test  => 
+issue-permissions.test =>  sinon
+issue-list.test        =>  sinon
+single-issue.test      =>  sinon
+create-issue.test      =>  sinon
+
+color-field.test       =>  {shallow} from 'enzyme'
+custom-field.test      =>  {shallow} from 'enzyme'
+
+router.test            =>  sinon
+
+config.test            =>  sinon
+storage.test           =>  sinon
+board-scroller.test    =>
+agile-card.test        =>  {shallow} from 'enzyme'  -  toJson from 'enzyme-to-json'
+enter-server.test      =>  {shallow} from 'enzyme'  -  sinon         
